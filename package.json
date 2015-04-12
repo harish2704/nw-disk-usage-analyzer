@@ -1,0 +1,17 @@
+{
+  "name": "disk-usage-analyzer",
+  "version": "0.0.0",
+  "description": "Disk usage analyzer/visualiser application written in Node-webkit",
+  "main": "html/index.html",
+  "scripts": {
+    "test": "mocha -R spec "
+  },
+  "author": "Harish.K <harish2704@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "dirtree": "0.0.2",
+    "findit": "~2.0.0",
+    "live-tree": "~1.0.0",
+    "tree-node": "~0.2.0"
+  }
+}
